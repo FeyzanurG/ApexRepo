@@ -4,20 +4,20 @@ public class Dinner {
     public Integer numberOfJuices;
     public String mealName;
 	
-    public Dinner(){
+    public dinner(){
         numberOfJuices = 2;
         mealName = 'Pizza';
     }
-    public Dinner (String otherMeal, Integer newNumberOfJuices){
+    public dinner (String otherMeal, Integer newNumberOfJuices){
         numberOfJuices = newNumberOfJuices;
         mealName = otherMeal;
     }
-    public Dinner(String otherMeal, Integer newNumberOfJuices, Integer afterDinnerNumberOfJuices){
+    public dinner(String otherMeal, Integer newNumberOfJuices, Integer afterDinnerNumberOfJuices){
         numberOfJuices = newNumberOfJuices + afterDinnerNumberOfJuices;
          mealName = otherMeal;
         
     }
-    public void DinnerMethod(){
+    public void dinnerMethod(){
         System.debug('I ate ' + mealName + ' and drunk ' + numberOfJuices + ' glass of juice');
     }
 }
