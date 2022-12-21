@@ -1,6 +1,6 @@
-public with sharing class Enemy {
-    public static void main(){
-        Enemy enemy1 = new Enemy();
-        enemy1.talk();
+public class Enemy {
+    public void talk(){
+        String v1 = 'I am an enemy. You better run!';
+        System.debug(v1);
     }
 }
