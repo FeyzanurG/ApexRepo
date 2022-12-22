@@ -1,22 +1,26 @@
 public class Dinner {
     /*public Dinner() {
     } this is constractor method, automatically comes*/
-    /* If the class name and method name is the same, it is called
-    constractor method */
     public Integer numberOfJuices;
     public String mealName;
+    
+    public class Meal{
+        public void starterMeal(){
+            System.debug('Fried chicken');
+        }
+    } //inner class
 	
-    public dinner(){
+    public Dinner(){
         numberOfJuices = 2;
-        mealName = 'Pizza'; //constractor method
+        mealName = 'Pizza';
     }
-    public dinner (String otherMeal, Integer newNumberOfJuices){
+    public Dinner (String otherMeal, Integer newNumberOfJuices){
         numberOfJuices = newNumberOfJuices;
-        mealName = otherMeal; //constractor method
+        mealName = otherMeal;
     }
-    public dinner(String otherMeal, Integer newNumberOfJuices, Integer afterDinnerNumberOfJuices){
+    public Dinner(String otherMeal, Integer newNumberOfJuices, Integer afterDinnerNumberOfJuices){
         numberOfJuices = newNumberOfJuices + afterDinnerNumberOfJuices;
-         mealName = otherMeal; //constractor method
+         mealName = otherMeal;
         
     }
     public void dinnerMethod(){
