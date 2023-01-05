@@ -1,6 +1,6 @@
 public class FirstClass {
     
-    private Integer classNumber; 
+    public Integer classNumber = 50; 
     private static String userName;
 
     public static void setUserName(String newUserName){
@@ -17,5 +17,8 @@ public class FirstClass {
         }else{
            System.debug('Hello Bro..' ); 
         }
+    }
+    public static void numbers(){
+        Integer.format(classNumber);
     }
 }
