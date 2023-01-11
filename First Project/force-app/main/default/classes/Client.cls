@@ -4,6 +4,6 @@ public with sharing class Client {
 
     Public void clientDataMethod(){
         String ageToText = String.valueOf(age);
-        System.debug('The name of the client is ' + name + ' and the age of them is' + ageToText);
+        System.debug('The name of the client is ' + name + ' and the age of them is ' + ageToText);
     }
 }

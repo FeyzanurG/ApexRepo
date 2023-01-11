@@ -5,9 +5,9 @@ public class Greeting {
         String fName = firstName + ' ' + lastName;
         return fName;
     }
-    public String greetings(){
-        String greetings = 'Hello';
-        String greet = (greetings + ' ' + fullName());
+    public String greeting(){
+        String greeting = 'Hello';
+        String greet = (greeting + ' ' + fullName());
         return greet;
     }
     public void greetingAll(List<String> nameList){
@@ -25,9 +25,7 @@ public class Greeting {
             String test = toFatmanur.split(' ',2)[0];
             if(test == 'Fatmanur'){
                 System.debug('Hello ' +toFatmanur.split(' ',2)[0]);
-            }else {
-                System.debug('Hello ' + 'none');
-            }
+            }else { }
         }
     }
 }

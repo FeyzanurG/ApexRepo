@@ -23,7 +23,7 @@ public class Dinner {
          mealName = otherMeal;
         
     }
-    public void dinnerMethod(){
+    public void DinnerMethod(){
         System.debug('I ate ' + mealName + ' and drunk ' + numberOfJuices + ' glass of juice');
     }
 }

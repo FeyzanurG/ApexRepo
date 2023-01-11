@@ -9,9 +9,4 @@ public class LearnSoql {
         }
         update newAccs;
     }
-    public static void dynamicQuery(String fieldName){
-        String myQuery = 'SELECT ' + fieldName + ' FROM Account';
-        List<Account>ListAcc = Database.query(myQuery);
-        // bu sekilde olanlar icin database teknigi kullaniliyor!
-    }
 }
