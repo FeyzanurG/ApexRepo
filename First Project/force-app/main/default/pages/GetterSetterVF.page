@@ -1,0 +1,20 @@
+<apex:page controller="GetterSetterVF" lightningStylesheets="true">>
+  <apex:pageblock title="Client Information">
+  
+  <apex:form >
+  First Name: <apex:inputText value="{!fName}" styleClass="myStyle"/><br/><br/>
+  LastName: <apex:inputText value="{!lName}" styleClass="myStyle"/><br/><br/>
+  City: <apex:inputText value="{!city}" styleClass="myStyle"/><br/><br/>
+   <apex:outputText value="{!fullInfo}" style="color:red"></apex:outputText>
+  <apex:commandbutton action="{!concatenate}" value="Merge"/><br/><br/>
+  
+  <style>
+  .myStyle{
+  position: absolute;
+  left: 150 px;
+  }
+  </style>
+  
+  </apex:form>
+  </apex:pageblock>
+</apex:page>
