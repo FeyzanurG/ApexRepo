@@ -1,0 +1,21 @@
+<apex:page >
+<h1> Please fill out the form:</h1>
+<apex:form >
+Name: <apex:inputText /> <br/>
+Phone: <apex:inputText /><br/>
+Address: <apex:inputtextarea /><br/>
+Accept conditions: <apex:inputCheckbox /><br/>
+Upload file: <apex:inputFile value=""></apex:inputFile><br/>
+Password: <apex:inputSecret /><br/>
+
+<apex:outputText >This output text</apex:outputText><br/>
+<apex:outputLink >https://clarusway.com/</apex:outputLink><br/>
+<apex:outputLink value="https://triforcia.com/">Triforcia</apex:outputLink><br/>
+
+<c:VFform ></c:VFform>
+
+<apex:pageMessage severity="Error" strength="2" title="This is an error"></apex:pageMessage>
+<apex:pageMessage severity="Warning" strength="2" title="This is a warning"></apex:pageMessage>
+
+</apex:form>
+</apex:page>

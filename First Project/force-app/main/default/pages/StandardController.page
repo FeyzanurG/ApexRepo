@@ -1,0 +1,24 @@
+<apex:page standardController="Account">
+  <apex:form >
+  <apex:pageblock >
+  <apex:pageblockbuttons >
+  
+  <apex:commandbutton value="Edit" action="{!Edit}"/>
+  <apex:commandbutton value="Save" action="{!Save}"/>
+  <apex:commandbutton value="Cancel" action="{!Cancel}"/>
+  
+  </apex:pageblockbuttons>
+  
+  <apex:pageblocksection >
+  <p>Id:</p>{!Account.Id}
+  <p>Name:</p>{!Account.Name}
+  <p>Industry:</p>{!Account.Industry}
+  <p>Owner:</p>{!Account.Owner.Name}
+  </apex:pageblocksection>
+ 
+  </apex:pageblock>
+  </apex:form>
+  
+  <apex:relatedList list="Contacts"/>
+</apex:page>
+             
