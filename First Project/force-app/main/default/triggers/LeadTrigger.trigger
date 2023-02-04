@@ -26,5 +26,7 @@ trigger LeadTrigger on Lead (before insert, after insert, after update ) {
             }
         }
      
-           insert taskList; 
+        if(taskList.size()>0){
+            insert taskList; 
+           } 
    }
