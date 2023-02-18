@@ -1,0 +1,12 @@
+.lgc-bg {
+    background-color: rgb(242 242 242);
+}
+
+.lgc-bg-inverse {
+    background-color: rgb(147, 185, 242);
+}
+
+.lgc-highlight {
+    background-color: rgb(212, 169, 247);
+    color:rgb(78, 160, 12);
+}
