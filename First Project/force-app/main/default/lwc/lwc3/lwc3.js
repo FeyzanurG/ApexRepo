@@ -1,8 +1,10 @@
 import { LightningElement } from 'lwc';
 
-export default class Lwc3 extends LightningElement {
+export default class ButtonBasic extends LightningElement {
     textValue;
-    handleInputChange(event) {
-        this.textValue = event.detail.value;
+
+    handleClick(event) {
+        alert("You resetted the name");
+        this.textValue="User";
     }
 }

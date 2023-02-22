@@ -2,15 +2,23 @@
 <h1> Please fill out the form:</h1>
 <apex:form >
 Name: <apex:inputText /> <br/>
+<br/>
 Phone: <apex:inputText /><br/>
+<br/>
 Address: <apex:inputtextarea /><br/>
+<br/>
 Accept conditions: <apex:inputCheckbox /><br/>
+<br/>
 Upload file: <apex:inputFile value=""></apex:inputFile><br/>
+<br/>
 Password: <apex:inputSecret /><br/>
-
+<br/>
 <apex:outputText >This output text</apex:outputText><br/>
+<br/>
 <apex:outputLink >https://clarusway.com/</apex:outputLink><br/>
+<br/>
 <apex:outputLink value="https://triforcia.com/">Triforcia</apex:outputLink><br/>
+<br/>
 
 <c:VFform ></c:VFform>
 

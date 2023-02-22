@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    color: rgb(224, 203, 244);
+    font-size: 30px;
+    margin-inline: 20px;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #5609a4;
+  }
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #dea3f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #add2f9;
+    color: black;
+  }
+  /* Style the content */
+  .content {
+    background-color: #fbcbcd;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  /* Style the footer */
+  .footer {
+    background-color: #eb6923;
+    padding: 10px;
+  }
