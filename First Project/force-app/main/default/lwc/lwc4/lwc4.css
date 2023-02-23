@@ -3,9 +3,10 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   h1 {
-    color: rgb(224, 203, 244);
+    color: rgb(75, 5, 54);
     font-size: 30px;
     margin-inline: 20px;
+    text-align: center;
   }
   body {
     margin: 0;
@@ -14,7 +15,7 @@
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
-    background-color: #5609a4;
+    background-color: #f7bbe7;
   }
   /* Style the topnav links */
   .topnav a {
@@ -38,6 +39,6 @@
   }
   /* Style the footer */
   .footer {
-    background-color: #eb6923;
+    background-color: #6f1d58;
     padding: 10px;
   }

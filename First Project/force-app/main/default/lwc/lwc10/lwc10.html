@@ -1,0 +1,35 @@
+<template>
+    <lightning-card title="LWC 10 (Custom Layout-Edit)"> 
+    <lightning-record-edit-form
+    object-api-name={objectApiName}
+    record-id={recordId}
+>
+<div class="slds-grid">
+    <div class="slds-col slds-size_1-of-2">
+        <lightning-input-field field-name="Name"> </lightning-input-field>
+        <lightning-input-field field-name="Phone">
+        </lightning-input-field>
+        
+    </div>
+    <div class="slds-col slds-size_1-of-2">
+        <lightning-input-field field-name="Title">
+        </lightning-input-field>
+        <lightning-input-field field-name="Email">
+        </lightning-input-field>
+        <lightning-input-field field-name="Birthdate">
+        </lightning-input-field>
+        <lightning-input-field field-name="LeadSource">
+        </lightning-input-field>
+    </div>
+</div>
+
+<lightning-button 
+type="Submit"
+variant="brand" 
+label="Save"
+class="slds-m-left_x-small">
+</lightning-button>
+
+</lightning-record-edit-form>
+</lightning-card>
+</template>

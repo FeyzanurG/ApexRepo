@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="LWC12-WireMethodToProperty" icon-name="custom:custom55">
+        <div class="slds-m-around_medium">
+            <template lwc:if={accounts.data}>
+                <template for:each={accounts.data} for:item="contact">
+                    <p key={account.Id}>{account.Name}</p>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>
