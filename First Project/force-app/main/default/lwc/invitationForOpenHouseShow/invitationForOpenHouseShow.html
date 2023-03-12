@@ -1,0 +1,30 @@
+<template>
+    <lightning-card title="Get an Invitation">
+        <lightning-record-form>
+        <div class="slds-m-around_medium">
+            <lightning-input 
+            label="Your Name" 
+            type="Text"
+            value={visitorName} 
+            onchange={handleVisitorNameChange}>
+           </lightning-input>
+           <lightning-input 
+           label="Your Email" 
+           type="email" 
+           value={visitorEmail} 
+           onchange={handleVisitorEmailChange}>
+          </lightning-input>
+          <lightning-input 
+          label="Open House Show" 
+          value={openHouseShow} 
+          onchange={handleOpenHouseShowChange}>
+         </lightning-input>
+         <lightning-button 
+         label="Submit" 
+         variant="brand" 
+         onclick={handleSubmit}>
+        </lightning-button>
+        </div>
+      </lightning-record-form>
+ </lightning-card>
+</template>
