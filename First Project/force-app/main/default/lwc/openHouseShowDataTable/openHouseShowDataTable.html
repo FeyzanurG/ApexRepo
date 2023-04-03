@@ -1,0 +1,11 @@
+<template>
+    <template if:true={ohsList}>
+        <lightning-card  title="Open House Show List" variant="narrow">
+            <lightning-datatable data={ohsList} columns={columns} hide-checkbox-column key-field="Id">
+            </lightning-datatable>
+        </lightning-card>
+    </template>
+    <template if:true={error}>
+    {error}
+    </template>
+    </template>
