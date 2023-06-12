@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="Let's keep connected!" class={style.ConnectionForm}>
+      <div class={style.field}>
+        <label for="name">Name</label>
+        <input class={style.input} type="text" id="name" name="name" value={name} onchange={handleNameChange}>
+      </div>
+      <div class={style.field}>
+        <label for="email">Email</label>
+        <input class={style.input} type="email" id="email" name="email" value={email} onchange={handleEmailChange}>
+      </div>
+      <div class={style.field}>
+        <label for="linkedin">LinkedIn Profile</label>
+        <input class={style.input} type="url" id="linkedin" name="linkedin" value={linkedin} onchange={handleLinkedinChange}>
+      </div>
+      <div class={style.field}>
+        <label for="trailhead">Trailhead Profile Link</label>
+        <input class={style.input} type="url" id="trailhead" name="trailhead" value={trailhead} onchange={handleTrailheadChange}>
+      </div>
+      <div class={style.field}>
+        <label for="comment">Comment</label>
+        <input class={style.input} type="textarea" id="comment" name="comment" value={comment} onchange={handleCommentChange}></input>
+      </div>
+      <lightning-button
+        onclick='{handleConnect}'
+        label="Connect"></lightning-button>
+    </lightning-card>
+  </template>
